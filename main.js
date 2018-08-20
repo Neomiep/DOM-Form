@@ -33,9 +33,12 @@ const validate = function () {
 
     }
     else{
-        color = "green"
-        text = "Congratulations! Your form has been submitted."
-        displayMessage(text,color)
+        document.getElementById("parent").style.display = "none"
+        welcome = document.createElement("div")
+        welcome.setAttribute("class","message")
+        welcome.innerHTML = "<h1>Welcome!!</h1><h2>" + name + ", you are now a part of the Elevation Academy community.</h2>"
+        hello = document.getElementById("hello")
+        hello.appendChild(welcome)
     }
 
 }

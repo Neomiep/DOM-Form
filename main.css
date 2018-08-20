@@ -1,6 +1,14 @@
 body{
     font-family:'Montserrat', sans-serif;
 }
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    font-size: 20px;
+    text-align: justify;
+}
 
 .full{
     width:100%;
@@ -9,6 +17,15 @@ body{
 .dis{
     width:50%;
     float:left;
+}
+.message{
+    background-color: rgb(103, 212, 171);
+    margin: 0 auto;
+    margin-top:20px;
+    padding:20px;
+    border:1px solid black;
+    width:300px;
+    height:200px;
 }
 
 #parent{
