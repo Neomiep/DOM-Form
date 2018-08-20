@@ -1,0 +1,38 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+.full{
+    width:100%;
+}
+
+.dis{
+    width:50%;
+    float:left;
+}
+
+#parent{
+    background-color: rgb(103, 212, 171);
+    margin:30px;
+    padding:20px;
+    border:1px solid black;
+    width:400px;
+    height:300px;
+}
+
+#button{
+    background-color: rgb(12, 150, 97);
+    border:1px solid black;
+    padding:5px;
+    margin-top:10px
+}
+
+#pho{
+    margin-top:5px
+}
+#miniPar{
+    height:25%
+}
+#text{
+    margin-top: 10px
+}

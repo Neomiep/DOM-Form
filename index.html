@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+
+    <div id="parent">
+        <div>
+            <h3>Name</h3>
+            <input type="text" class="full" id="name1" placeholder="What is Your Name?" />
+        </div>
+        
+        <div id="miniPar">
+            <div class="dis">
+                <h3>Desired Salary</h3>
+                <input type="text" id="salary1" placeholder="Which Salary do you Want?" />
+            </div>
+            
+            <div class="dis">
+                <h3>Birthday</h3>
+                <input type="date" id="bDay1" placeholder="When Were You Born?" />
+            </div>
+        </div>
+        
+        <div id="pho">
+            <h3>Phone #</h3>
+            <input type="text" class="full" id="phoneNum1" placeholder="What is Your Phone Number?" />
+        </div>
+        
+        <input type="submit" id="button" onclick="validate()" />
+        <div id="text"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
